@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="TISSIR CONSULTING provides technical engineering, environmental consulting, industrial project management and strategic business solutions to help organizations achieve sustainable growth." />
+  <title>TISSIR CONSULTING | Engineering Solutions. Strategic Consulting. Sustainable Growth.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@500;600;700;800&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#home" class="logo" aria-label="TISSIR Consulting Home">
+        <span class="logo-mark">T</span>
+        <span class="logo-text">
+          <strong>TISSIR</strong>
+          <small>CONSULTING</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="primaryNav" aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link active" data-i18n="nav.home">Home</a></li>
+          <li><a href="#about" class="nav-link" data-i18n="nav.about">About Us</a></li>
+          <li><a href="#services" class="nav-link" data-i18n="nav.services">Services</a></li>
+          <li><a href="#industries" class="nav-link" data-i18n="nav.industries">Industries</a></li>
+          <li><a href="#projects" class="nav-link" data-i18n="nav.projects">Projects</a></li>
+          <li><a href="#partners" class="nav-link" data-i18n="nav.partners">Partners</a></li>
+          <li><a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switch" aria-label="Language selector">
+          <button class="lang-btn active" data-lang="en" type="button">EN</button>
+          <span class="divider">|</span>
+          <button class="lang-btn" data-lang="fr" type="button">FR</button>
+          <span class="divider">|</span>
+          <button class="lang-btn" data-lang="ar" type="button">AR</button>
+        </div>
+        <a href="#contact" class="btn btn-primary btn-sm header-cta" data-i18n="cta.request">Request Consultation</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false" type="button">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="eyebrow reveal" data-i18n="hero.eyebrow">Engineering • Environment • Industry</p>
+      <h1 class="hero-title reveal">
+        <span data-i18n="hero.title1">Engineering Solutions.</span><br />
+        <span data-i18n="hero.title2">Strategic Consulting.</span><br />
+        <span class="accent" data-i18n="hero.title3">Sustainable Growth.</span>
+      </h1>
+      <p class="hero-text reveal" data-i18n="hero.text">
+        TISSIR CONSULTING provides technical engineering, environmental consulting,
+        industrial project management and strategic business solutions to help
+        organizations achieve sustainable growth.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#services" class="btn btn-primary" data-i18n="hero.btnServices">Explore Services</a>
+        <a href="#contact" class="btn btn-outline" data-i18n="hero.btnConsult">Request a Consultation</a>
+      </div>
+
+      <div class="hero-stats reveal">
+        <div class="stat">
+          <h3><span class="counter" data-target="15">0</span>+</h3>
+          <p data-i18n="stat.exp">Years Combined Experience</p>
+        </div>
+        <div class="stat">
+          <h3><span class="counter" data-target="120">0</span>+</h3>
+          <p data-i18n="stat.projects">Projects Delivered</p>
+        </div>
+        <div class="stat">
+          <h3><span class="counter" data-target="5">0</span></h3>
+          <p data-i18n="stat.divisions">Service Divisions</p>
+        </div>
+        <div class="stat">
+          <h3><span class="counter" data-target="3">0</span></h3>
+          <p data-i18n="stat.languages">Languages Spoken</p>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-cue" aria-label="Scroll down"><span></span></a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section about" id="about">
+    <div class="container grid-2">
+      <div class="about-media reveal">
+        <div class="media-frame">
+          <img src="https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=1200&q=80" alt="Engineers reviewing technical plans" loading="lazy" />
+        </div>
+        <div class="about-badge">
+          <span data-i18n="about.badgeTop">ISO-Grade</span>
+          <strong data-i18n="about.badgeBottom">Engineering Standards</strong>
+        </div>
+      </div>
+
+      <div class="about-copy reveal">
+        <p class="eyebrow" data-i18n="about.eyebrow">About TISSIR</p>
+        <h2 data-i18n="about.title">A Consulting Firm Built on Engineering Rigor</h2>
+        <p data-i18n="about.body">
+          TISSIR CONSULTING is a multi-disciplinary engineering and consulting firm
+          delivering technical excellence across industrial, environmental and
+          commercial sectors. We partner with organizations to design, optimize
+          and implement solutions that are technically sound, commercially viable
+          and environmentally responsible.
+        </p>
+
+        <div class="mv-grid">
+          <div class="mv-card">
+            <h4 data-i18n="about.missionTitle">Our Mission</h4>
+            <p data-i18n="about.missionBody">To deliver engineering and consulting solutions that create measurable, sustainable value for our clients.</p>
+          </div>
+          <div class="mv-card">
+            <h4 data-i18n="about.visionTitle">Our Vision</h4>
+            <p data-i18n="about.visionBody">To be a trusted reference for industrial and environmental consulting across Morocco and international markets.</p>
+          </div>
+        </div>
+
+        <ul class="value-list">
+          <li><span class="check">✓</span> <span data-i18n="about.val1">Technical Excellence &amp; Integrity</span></li>
+          <li><span class="check">✓</span> <span data-i18n="about.val2">Sustainability by Design</span></li>
+          <li><span class="check">✓</span> <span data-i18n="about.val3">Client-Centered Partnership</span></li>
+          <li><span class="check">✓</span> <span data-i18n="about.val4">International Standards &amp; Compliance</span></li>
+        </ul>
+
+        <a href="#services" class="btn btn-primary" data-i18n="about.btn">Discover Our Approach</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-i18n="services.eyebrow">Our Services</p>
+        <h2 data-i18n="services.title">Five Divisions. One Integrated Partner.</h2>
+        <p class="section-sub" data-i18n="services.sub">
+          From technical engineering to international trade, our services are designed
+          to support every stage of your project lifecycle.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card reveal">
+          <span class="service-num">01</span>
+          <div class="service-icon" aria-hidden="true">⚙️</div>
+          <h3 data-i18n="svc1.title">Engineering &amp; Technical Consulting</h3>
+          <ul>
+            <li data-i18n="svc1.i1">Industrial engineering</li>
+            <li data-i18n="svc1.i2">Technical assistance</li>
+            <li data-i18n="svc1.i3">Technical audits</li>
+            <li data-i18n="svc1.i4">Process optimization</li>
+            <li data-i18n="svc1.i5">Engineering studies</li>
+          </ul>
+        </article>
+
+        <article class="service-card reveal">
+          <span class="service-num">02</span>
+          <div class="service-icon" aria-hidden="true">🌱</div>
+          <h3 data-i18n="svc2.title">Environment &amp; Energy</h3>
+          <ul>
+            <li data-i18n="svc2.i1">Environmental consulting</li>
+            <li data-i18n="svc2.i2">Waste management</li>
+            <li data-i18n="svc2.i3">Wastewater treatment</li>
+            <li data-i18n="svc2.i4">Pollution control</li>
+            <li data-i18n="svc2.i5">Energy transition</li>
+          </ul>
+        </article>
+
+        <article class="service-card reveal">
+          <span class="service-num">03</span>
+          <div class="service-icon" aria-hidden="true">📋</div>
+          <h3 data-i18n="svc3.title">Project Management</h3>
+          <ul>
+            <li data-i18n="svc3.i1">Project planning</li>
+            <li data-i18n="svc3.i2">Technical supervision</li>
+            <li data-i18n="svc3.i3">Project implementation</li>
+            <li data-i18n="svc3.i4">Coordination &amp; monitoring</li>
+          </ul>
+        </article>
+
+        <article class="service-card reveal">
+          <span class="service-num">04</span>
+          <div class="service-icon" aria-hidden="true">🌍</div>
+          <h3 data-i18n="svc4.title">International Trade &amp; Representation</h3>
+          <ul>
+            <li data-i18n="svc4.i1">Import and export</li>
+            <li data-i18n="svc4.i2">Equipment distribution</li>
+            <li data-i18n="svc4.i3">International representation</li>
+            <li data-i18n="svc4.i4">Commercial partnerships</li>
+          </ul>
+        </article>
+
+        <article class="service-card reveal">
+          <span class="service-num">05</span>
+          <div class="service-icon" aria-hidden="true">📈</div>
+          <h3 data-i18n="svc5.title">Business &amp; Digital Consulting</h3>
+          <ul>
+            <li data-i18n="svc5.i1">Commercial strategy</li>
+            <li data-i18n="svc5.i2">Digital marketing</li>
+            <li data-i18n="svc5.i3">Social media management</li>
+            <li data-i18n="svc5.i4">Online sales</li>
+            <li data-i18n="svc5.i5">Business development</li>
+          </ul>
+        </article>
+
+        <article class="service-card service-cta reveal">
+          <h3 data-i18n="svcCta.title">Need a tailored solution?</h3>
+          <p data-i18n="svcCta.body">Tell us about your project and our engineers will outline the right approach.</p>
+          <a href="#contact" class="btn btn-light" data-i18n="svcCta.btn">Talk to an Expert →</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== INDUSTRIES ===== -->
+  <section class="section industries" id="industries">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-i18n="ind.eyebrow">Industries We Serve</p>
+        <h2 data-i18n="ind.title">Sector Expertise Across the Value Chain</h2>
+      </div>
+
+      <div class="industries-grid">
+        <div class="industry-tile reveal">
+          <div class="industry-icon">🏭</div>
+          <h4 data-i18n="ind1.title">Industrial Manufacturing</h4>
+          <p data-i18n="ind1.body">Production optimization, technical audits and industrial engineering support.</p>
+        </div>
+        <div class="industry-tile reveal">
+          <div class="industry-icon">⚡</div>
+          <h4 data-i18n="ind2.title">Energy</h4>
+          <p data-i18n="ind2.body">Energy transition consulting, efficiency studies and infrastructure support.</p>
+        </div>
+        <div class="industry-tile reveal">
+          <div class="industry-icon">🌍</div>
+          <h4 data-i18n="ind3.title">Environmental Services</h4>
+          <p data-i18n="ind3.body">Environmental compliance, impact assessments and pollution control.</p>
+        </div>
+        <div class="industry-tile reveal">
+          <div class="industry-icon">💧</div>
+          <h4 data-i18n="ind4.title">Water &amp; Waste Treatment</h4>
+          <p data-i18n="ind4.body">Wastewater engineering, treatment plant design and process management.</p>
+        </div>
+        <div class="industry-tile reveal">
+          <div class="industry-icon">🏗️</div>
+          <h4 data-i18n="ind5.title">Infrastructure</h4>
+          <p data-i18n="ind5.body">Technical supervision, planning and project coordination for infrastructure.</p>
+        </div>
+        <div class="industry-tile reveal">
+          <div class="industry-icon">🚢</div>
+          <h4 data-i18n="ind6.title">International Trade</h4>
+          <p data-i18n="ind6.body">Import/export representation, equipment distribution and market access.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section projects" id="projects">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-i18n="proj.eyebrow">Projects &amp; References</p>
+        <h2 data-i18n="proj.title">Work That Speaks for Itself</h2>
+        <p class="section-sub" data-i18n="proj.sub">
+          A selection of verified engagements across industrial, environmental
+          and water treatment sectors.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="project-media">
+            <img src="https://images.unsplash.com/photo-1581093458791-9f3c3900df4b?auto=format&fit=crop&w=1200&q=80" alt="Industrial process optimization project" loading="lazy" />
+            <span class="tag" data-i18n="proj1.tag">Industrial</span>
+          </div>
+          <div class="project-body">
+            <h3 data-i18n="proj1.title">Industrial Process Optimization</h3>
+            <p data-i18n="proj1.body">Process audit and optimization delivering measurable efficiency gains for a manufacturing client.</p>
+            <a href="#contact" class="link-arrow" data-i18n="proj.link">View Case Study →</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-media">
+            <img src="https://images.unsplash.com/photo-1581092335871-6f4a5c1a6c3b?auto=format&fit=crop&w=1200&q=80" alt="Wastewater treatment plant" loading="lazy" />
+            <span class="tag" data-i18n="proj2.tag">Water</span>
+          </div>
+          <div class="project-body">
+            <h3 data-i18n="proj2.title">Wastewater Treatment Engineering</h3>
+            <p data-i18n="proj2.body">Design support and technical supervision for an industrial wastewater treatment facility.</p>
+            <a href="#contact" class="link-arrow" data-i18n="proj.link">View Case Study →</a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-media">
+            <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=1200&q=80" alt="Industrial solar installation" loading="lazy" />
+            <span class="tag" data-i18n="proj3.tag">Energy</span>
+          </div>
+          <div class="project-body">
+            <h3 data-i18n="proj3.title">Energy Transition Study</h3>
+            <p data-i18n="proj3.body">Feasibility study for renewable energy integration at an industrial site.</p>
+            <a href="#contact" class="link-arrow" data-i18n="proj.link">View Case Study →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PARTNERS ===== -->
+  <section class="section partners" id="partners">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-i18n="partners.eyebrow">Partners &amp; Clients</p>
+        <h2 data-i18n="partners.title">Trusted by Organizations That Demand Precision</h2>
+      </div>
+
+      <div class="partners-marquee reveal" aria-hidden="true">
+        <div class="marquee-track">
+          <span class="partner-logo">PARTNER A</span>
+          <span class="partner-logo">CLIENT B</span>
+          <span class="partner-logo">PARTNER C</span>
+          <span class="partner-logo">CLIENT D</span>
+          <span class="partner-logo">PARTNER E</span>
+          <span class="partner-logo">CLIENT F</span>
+          <span class="partner-logo">PARTNER A</span>
+          <span class="partner-logo">CLIENT B</span>
+          <span class="partner-logo">PARTNER C</span>
+          <span class="partner-logo">CLIENT D</span>
+        </div>
+      </div>
+      <p class="partner-note reveal" data-i18n="partners.note">Logos displayed are placeholders — replace with authorized partner and client marks only.</p>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section contact" id="contact">
+    <div class="container grid-2">
+      <div class="contact-info reveal">
+        <p class="eyebrow" data-i18n="contact.eyebrow">Contact Us</p>
+        <h2 data-i18n="contact.title">Let's Engineer Your Next Step</h2>
+        <p data-i18n="contact.sub">Tell us about your project. Our team responds within one business day.</p>
+
+        <ul class="contact-list">
+          <li>
+            <span class="ci-icon">✉️</span>
+            <div>
+              <small data-i18n="contact.emailLabel">Email</small>
+              <a href="mailto:contact@tissirconsulting.com">contact@tissirconsulting.com</a>
+            </div>
+          </li>
+          <li>
+            <span class="ci-icon">📞</span>
+            <div>
+              <small data-i18n="contact.phoneLabel">Phone / WhatsApp</small>
+              <a href="tel:+212600000000">+212 6 00 00 00 00</a>
+            </div>
+          </li>
+          <li>
+            <span class="ci-icon">📍</span>
+            <div>
+              <small data-i18n="contact.officeLabel">Office</small>
+              <span data-i18n="contact.office">Casablanca, Morocco</span>
+            </div>
+          </li>
+        </ul>
+
+        <div class="socials">
+          <a href="#" aria-label="LinkedIn">in</a>
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">ig</a>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name" data-i18n="form.name">Full Name *</label>
+            <input type="text" id="name" name="name" required data-i18n-placeholder="form.namePh" placeholder="Your name" />
+          </div>
+          <div class="form-group">
+            <label for="email" data-i18n="form.email">Email *</label>
+            <input type="email" id="email" name="email" required data-i18n-placeholder="form.emailPh" placeholder="you@company.com" />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="company" data-i18n="form.company">Company</label>
+            <input type="text" id="company" name="company" data-i18n-placeholder="form.companyPh" placeholder="Company name" />
+          </div>
+          <div class="form-group">
+            <label for="service" data-i18n="form.service">Service of Interest</label>
+            <select id="service" name="service">
+              <option value="" data-i18n="form.servicePh">Select a service</option>
+              <option data-i18n="svc1.title">Engineering &amp; Technical Consulting</option>
+              <option data-i18n="svc2.title">Environment &amp; Energy</option>
+              <option data-i18n="svc3.title">Project Management</option>
+              <option data-i18n="svc4.title">International Trade &amp; Representation</option>
+              <option data-i18n="svc5.title">Business &amp; Digital Consulting</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="message" data-i18n="form.message">Message *</label>
+          <textarea id="message" name="message" rows="5" required data-i18n-placeholder="form.messagePh" placeholder="Describe your project or request..."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block" data-i18n="form.submit">Send Request</button>
+        <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo logo-light">
+          <span class="logo-mark">T</span>
+          <span class="logo-text">
+            <strong>TISSIR</strong>
+            <small>CONSULTING</small>
+          </span>
+        </a>
+        <p data-i18n="footer.tagline">Engineering Solutions. Strategic Consulting. Sustainable Growth.</p>
+      </div>
+
+      <div class="footer-col">
+        <h5 data-i18n="footer.company">Company</h5>
+        <ul>
+          <li><a href="#about" data-i18n="nav.about">About Us</a></li>
+          <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+          <li><a href="#partners" data-i18n="nav.partners">Partners</a></li>
+          <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5 data-i18n="footer.services">Services</h5>
+        <ul>
+          <li><a href="#services" data-i18n="svc1.title">Engineering</a></li>
+          <li><a href="#services" data-i18n="svc2.title">Environment &amp; Energy</a></li>
+          <li><a href="#services" data-i18n="svc3.title">Project Management</a></li>
+          <li><a href="#services" data-i18n="svc4.title">International Trade</a></li>
+          <li><a href="#services" data-i18n="svc5.title">Business &amp; Digital</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5 data-i18n="footer.contact">Contact</h5>
+        <ul>
+          <li><a href="mailto:contact@tissirconsulting.com">contact@tissirconsulting.com</a></li>
+          <li><a href="tel:+212600000000">+212 6 00 00 00 00</a></li>
+          <li data-i18n="contact.office">Casablanca, Morocco</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span id="year"></span> TISSIR CONSULTING. <span data-i18n="footer.rights">All rights reserved.</span></p>
+      <p>EN | FR | AR</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
